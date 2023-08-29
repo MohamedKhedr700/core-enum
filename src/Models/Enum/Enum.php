@@ -1,9 +1,9 @@
 <?php
 
-namespace Raid\Core\Models\Enum;
+namespace Raid\Core\Enum\Models\Enum;
 
-use Raid\Core\Traits\Enum\CaseEnum;
-use Raid\Core\Traits\Enum\ConstEnum;
+use Raid\Core\Enum\Traits\Enum\CaseEnum;
+use Raid\Core\Enum\Traits\Enum\ConstEnum;
 
 enum Enum
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Raid\Core\Models\Action;
+namespace Raid\Core\Enum\Models\Action;
 
-use Raid\Core\Traits\Action\Enum\WithAuthAction;
-use Raid\Core\Traits\Action\Enum\WithCrudAction;
-use Raid\Core\Traits\Action\Enum\WithProfileAction;
-use Raid\Core\Traits\Enum\ConstEnum;
+use Raid\Core\Enum\Traits\Action\Enum\WithAuthAction;
+use Raid\Core\Enum\Traits\Action\Enum\WithCrudAction;
+use Raid\Core\Enum\Traits\Action\Enum\WithProfileAction;
+use Raid\Core\Enum\Traits\Enum\ConstEnum;
 
 class Action
 {

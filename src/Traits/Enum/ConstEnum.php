@@ -1,6 +1,6 @@
 <?php
 
-namespace Raid\Core\Traits\Enum;
+namespace Raid\Core\Enum\Traits\Enum;
 
 use ReflectionClass;
 

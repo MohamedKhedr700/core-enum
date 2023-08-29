@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Raid\\Core\\": "src"
+            "Raid\\Core\\Enum\\": "src"
         }
     },
     "scripts": {
