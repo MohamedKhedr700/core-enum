@@ -1,4 +1,5 @@
 <?php
+
 namespace Raid\Core\Enum\Providers;
 
 use Illuminate\Support\ServiceProvider;
