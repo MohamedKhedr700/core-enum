@@ -1,6 +1,6 @@
 <?php
 
-namespace Raid\Core\Enum\Traits\Action\Enum;
+namespace Raid\Core\Enum\Traits\Action;
 
 trait WithProfileAction
 {
