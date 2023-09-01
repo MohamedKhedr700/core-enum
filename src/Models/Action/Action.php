@@ -6,7 +6,6 @@ use Raid\Core\Enum\Models\Enum;
 use Raid\Core\Enum\Traits\Action\WithAuthAction;
 use Raid\Core\Enum\Traits\Action\WithCrudAction;
 use Raid\Core\Enum\Traits\Action\WithProfileAction;
-use Raid\Core\Enum\Traits\Enum\ConstEnum;
 
 class Action extends Enum
 {
