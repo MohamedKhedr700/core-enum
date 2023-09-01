@@ -15,18 +15,10 @@
         "php": "^8.2",
         "archtechx/enums": "*"
     },
-    "require-dev": {
-        "laravel/pint": "^1.10"
-    },
     "autoload": {
         "psr-4": {
             "Raid\\Core\\Enum\\": "src"
         }
-    },
-    "scripts": {
-        "pint": [
-            "./vendor/bin/pint --config pint.json "
-        ]
     },
     "extra": {
         "laravel": {
