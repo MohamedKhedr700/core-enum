@@ -1,6 +1,6 @@
 <?php
 
-namespace Raid\Core\Enum;
+namespace Raid\Core\Enum\Enum;
 
 use Raid\Core\Enum\Traits\Enum\CaseEnum;
 use Raid\Core\Enum\Traits\Enum\ConstEnum;
