@@ -8,12 +8,12 @@ class PublishCommand extends Command
     /**
      * The console command name.
      */
-    protected string $name = 'publish:core-enum';
+    protected $name = 'publish:core-enum';
 
     /**
      * The console command description.
      */
-    protected string $description = 'Publish core enum config files.';
+    protected $description = 'Publish core enum config files.';
 
     /**
      * Execute the console command.
