@@ -2,9 +2,8 @@
 
 namespace Raid\Core\Enum\Commands;
 
-use Raid\Core\Command\Commands\PublishCommand as CorePublishCommand;
-
-class PublishCommand extends CorePublishCommand
+use Raid\Core\Command\Commands\PublishCommand;
+class PublishEnumCommand extends PublishCommand
 {
     /**
      * The console command name.

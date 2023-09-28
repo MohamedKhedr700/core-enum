@@ -5,7 +5,7 @@ namespace Raid\Core\Enum\Providers;
 use Illuminate\Support\ServiceProvider;
 use Raid\Core\Enum\Traits\Provider\WithEnumProvider;
 use Raid\Core\Enum\Commands\CreateEnumCommand;
-use Raid\Core\Enum\Commands\PublishCommand;
+use Raid\Core\Enum\Commands\PublishEnumCommand;
 
 class EnumServiceProvider extends ServiceProvider
 {
@@ -16,7 +16,7 @@ class EnumServiceProvider extends ServiceProvider
      */
     protected array $commands = [
         CreateEnumCommand::class,
-        PublishCommand::class,
+        PublishEnumCommand::class,
     ];
 
     /**
