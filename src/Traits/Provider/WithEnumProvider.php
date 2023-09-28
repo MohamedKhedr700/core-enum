@@ -1,8 +1,6 @@
 <?php
 
-namespace Raid\Core\Action\Traits\Provider;
-
-use Raid\Core\Action\Actions\Contracts\ActionInterface;
+namespace Raid\Core\Enum\Traits\Provider;
 
 trait WithEnumProvider
 {
