@@ -3,6 +3,7 @@
 namespace Raid\Core\Enum\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Raid\Core\Enum\Commands\CreateEnumCommand;
 use Raid\Core\Enum\Commands\PublishCommand;
 
 class EnumServiceProvider extends ServiceProvider
@@ -11,7 +12,8 @@ class EnumServiceProvider extends ServiceProvider
      * The commands to be registered.
      */
     protected array $commands = [
-         PublishCommand::class,
+        CreateEnumCommand::class,
+        PublishCommand::class,
     ];
 
     /**
