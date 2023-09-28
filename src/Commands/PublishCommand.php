@@ -3,12 +3,14 @@
 namespace Raid\Core\Enum\Commands;
 
 use \Illuminate\Console\Command;
-class PublishCommand extends Command
+use Raid\Core\Command\Commands\PublishCommand as CorePublishCommand;
+
+class PublishCommand extends CorePublishCommand
 {
     /**
      * The console command name.
      */
-    protected $name = 'publish:core-enum';
+    protected $name = 'core:publish-enum';
 
     /**
      * The console command description.
@@ -20,8 +22,6 @@ class PublishCommand extends Command
      */
     public function handle(): void
     {
-        $this->call('vendor:publish', [
-            '--tag' => 'config-enum'
-        ]);
+        $this->publishCommand('config-enum');
     }
 }

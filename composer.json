@@ -13,7 +13,8 @@
     ],
     "require": {
         "php": "^8.2",
-        "archtechx/enums": "*"
+        "archtechx/enums": "*",
+        "raid/core-command": "dev-main"
     },
     "autoload": {
         "psr-4": {
