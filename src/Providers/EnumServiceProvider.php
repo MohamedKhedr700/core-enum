@@ -21,6 +21,7 @@ class EnumServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
+        $this->registerCommands();
     }
 
     /**
