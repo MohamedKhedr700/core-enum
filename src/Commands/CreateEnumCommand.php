@@ -38,7 +38,7 @@ class CreateEnumCommand extends CreateCommand
     public function getStubVariables(): array
     {
         return [
-            'NAMESPACE' => 'App\\Models\\Enum',
+            'NAMESPACE' => 'App\\Models\\Enums',
             'CLASS_NAME' => $this->getClassName(),
         ];
     }
@@ -48,6 +48,6 @@ class CreateEnumCommand extends CreateCommand
      */
     public function getSourceFilePath(): string
     {
-        return app_path('Models/Enum/'.$this->getClassName()).'.php';
+        return app_path('Models/Enums/'.$this->getClassName()).'.php';
     }
 }
