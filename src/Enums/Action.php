@@ -1,8 +1,7 @@
 <?php
 
-namespace Raid\Core\Enum\Models\Action;
+namespace Raid\Core\Enum\Enums;
 
-use Raid\Core\Enum\Models\Enum;
 use Raid\Core\Enum\Traits\Action\WithAuthAction;
 use Raid\Core\Enum\Traits\Action\WithCrudAction;
 use Raid\Core\Enum\Traits\Action\WithProfileAction;
