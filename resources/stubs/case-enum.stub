@@ -1,11 +1,11 @@
 <?php
 
-namespace Raid\Core\Enum\Enum;
+namespace $NAMESPACE$;
 
 use Raid\Core\Enum\Traits\Enum\CaseEnum as RaidEnumTrait;
 use Raid\Core\Enum\Traits\Enum\ConstEnum;
 
-enum CaseEnum
+enum $CLASS_NAME$
 {
     use ConstEnum,
         RaidEnumTrait;
