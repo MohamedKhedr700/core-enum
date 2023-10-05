@@ -81,6 +81,8 @@ class UserTypeEnum extends Enum
 
 <br>
 
+### Case Enum
+
 You can create a case enum class,
 use this command to create the case enum class.
 
@@ -94,12 +96,10 @@ php artisan core:make-case-enum UserTypeEnum
 namespace App\Models\Enums;
 
 use Raid\Core\Enum\Traits\Enum\CaseEnum;
-use Raid\Core\Enum\Traits\Enum\ConstEnum;
 
 enum UserTypeEnum
 {
-    use CaseEnum,
-        ConstEnum;
+    use CaseEnum;
 }
 ```
 
@@ -111,12 +111,10 @@ Let's add our constants.
 namespace App\Models\Enums;
 
 use Raid\Core\Enum\Traits\Enum\CaseEnum;
-use Raid\Core\Enum\Traits\Enum\ConstEnum;
 
 enum UserTypeEnum: string
 {
-    use CaseEnum,
-        ConstEnum;
+    use CaseEnum;
     
     case ADMIN = 'admin';
     
@@ -126,7 +124,7 @@ enum UserTypeEnum: string
 }
 ```
 
-You can work with this class as **[archtechx/enums](https://github.com/archtechx/enums)**
+You can work with this class as **[archtechx/enums](https://github.com/archtechx/enums)** class.
 
 <br>
 

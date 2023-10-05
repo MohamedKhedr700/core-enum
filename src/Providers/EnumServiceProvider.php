@@ -4,6 +4,7 @@ namespace Raid\Core\Enum\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Raid\Core\Enum\Commands\CreateCaseEnumCommand;
+use Raid\Core\Enum\Commands\CreateConstEnumCommand;
 use Raid\Core\Enum\Traits\Provider\WithEnumProvider;
 use Raid\Core\Enum\Commands\CreateEnumCommand;
 use Raid\Core\Enum\Commands\PublishEnumCommand;
