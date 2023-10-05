@@ -81,6 +81,16 @@ class UserTypeEnum extends Enum
 
 <br>
 
+You can creat a case enum class,
+use this command to create the case enum class.
+
+``` bash
+php artisan core:make-case-enum UserTypeEnum
+```
+
+
+<br>
+
 And that's it.
 
 ## License
