@@ -2,11 +2,11 @@
 
 namespace $NAMESPACE$;
 
-use Raid\Core\Enum\Traits\Enum\CaseEnum as RaidEnumTrait;
+use Raid\Core\Enum\Traits\Enum\CaseEnum;
 use Raid\Core\Enum\Traits\Enum\ConstEnum;
 
 enum $CLASS_NAME$
 {
-    use ConstEnum,
-        RaidEnumTrait;
+    use CaseEnum,
+        ConstEnum;
 }

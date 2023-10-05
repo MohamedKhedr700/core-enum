@@ -93,13 +93,13 @@ php artisan core:make-case-enum UserTypeEnum
 
 namespace App\Models\Enums;
 
-use Raid\Core\Enum\Traits\Enum\CaseEnum as RaidEnumTrait;
+use Raid\Core\Enum\Traits\Enum\CaseEnum;
 use Raid\Core\Enum\Traits\Enum\ConstEnum;
 
 enum UserTypeEnum
 {
-    use ConstEnum,
-        RaidEnumTrait;
+    use CaseEnum,
+        ConstEnum;
 }
 ```
 
@@ -110,13 +110,13 @@ Let's add our constants.
 
 namespace App\Models\Enums;
 
-use Raid\Core\Enum\Traits\Enum\CaseEnum as RaidEnumTrait;
+use Raid\Core\Enum\Traits\Enum\CaseEnum;
 use Raid\Core\Enum\Traits\Enum\ConstEnum;
 
 enum UserTypeEnum: string
 {
-    use ConstEnum,
-        RaidEnumTrait;
+    use CaseEnum,
+        ConstEnum;
     
     case ADMIN = 'admin';
     
