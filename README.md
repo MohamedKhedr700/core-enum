@@ -40,9 +40,9 @@ class PostController extends Controller
 
 # How to work this
 
-Let's create our enum `class` and prefer classes as they ar extendable.
+Let's create our `const enum ` class and prefer classes as they ar extendable.
 
-You can use the `enum` command to create your enum class.
+You can use this command to create your enum class.
 
 ``` bash
 php artisan core:make-enum UserTypeEnum
@@ -125,6 +125,58 @@ enum UserTypeEnum: string
 ```
 
 You can work with this class as **[archtechx/enums](https://github.com/archtechx/enums)** class.
+
+<br>
+
+<br>
+
+### Const Enum
+
+You can create a cont enum class,
+use this command to create the case enum class.
+
+``` bash
+php artisan core:make-cont-enum UserTypeEnum
+```
+
+``` php
+<?php
+
+namespace App\Models\Enums;
+
+use Raid\Core\Enum\Traits\Enum\ContEnum;
+
+enum UserTypeEnum
+{
+    use ContEnum;
+}
+```
+
+Let's add our constants.
+
+``` php
+<?php
+
+namespace App\Models\Enums;
+
+use Raid\Core\Enum\Traits\Enum\ContEnum;
+
+enum UserTypeEnum: string
+{
+    use ContEnum;
+    
+    case ADMIN = 'admin';
+    
+    case USER = 'user';
+    
+    case GUEST = 'guest';
+}
+```
+
+You can use these methods to work with const enums.
+
+- `UserTypeEnum::constants()` to get all constants as an array.
+- `UserTypeEnum::hasConstant('ADMIN')` to check if the constant exists.
 
 <br>
 

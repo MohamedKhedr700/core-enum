@@ -18,6 +18,7 @@ class EnumServiceProvider extends ServiceProvider
      */
     protected array $commands = [
         CreateCaseEnumCommand::class,
+        CreateConstEnumCommand::class,
         CreateEnumCommand::class,
         PublishEnumCommand::class,
     ];
