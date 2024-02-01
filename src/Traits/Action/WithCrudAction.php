@@ -21,4 +21,8 @@ trait WithCrudAction
     const FORCE_DELETE = 'force_delete';
 
     const RESTORE = 'restore';
+
+    const ATTACH = 'attach';
+
+    const DETACH = 'detach';
 }
